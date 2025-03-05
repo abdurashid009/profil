@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+body{
+    background-color: rgb(217, 217, 217);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+.btnbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.imgbtn{
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 420px;
+    height: 570px;
+    border-radius: 25px;
+    margin-top:150px;
+}
+.imagediv{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    padding: 20px;
+}
+.imagebox{
+    padding: 10px;
+}
+.imagebox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.imagebox3 h4{
+    color: silver;
+}
+.coin{
+    display: flex;
+    background-color: #E33D0E;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 80px;
+}
+.cion{
+    color: white;
+    display: flex;
+    align-items: center;
+}
